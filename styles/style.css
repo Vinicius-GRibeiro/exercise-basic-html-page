@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+
+@font-face {
+    font-family: "exospace";
+    src: url("../assets/fonts/exospace.ttf");
+}
+
+body{
+    background-image: url("../assets/img/bg.jpg");
+    color: aliceblue;
+    padding: 0;
+    margin: 0;
+    font-family: Nunito Sans, sans-serif;
+}
+
+.main-title{
+    width: 100%;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.title-container{
+    border-bottom: aquamarine groove 5px;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+}
+
+.title-container h1{
+    font-family: exospace, fantasy;
+    font-size: 60px;
+    text-shadow: aquamarine 1px 1px;
+}
+
+.container-grid-flex{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+div.container-grid{
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr 3fr 1fr;
+}
+
+.p-highlight{
+    font-weight: 900;
+    color: aquamarine;
+    padding-top: 25px;
+}
+
+.p-title{
+    font-weight: bolder;
+    color: aquamarine;
+    padding-top: 25px;
+}
+
+.p-default{
+    color: aliceblue;
+    font-weight: lighter;
+}
+
+
+.subtitle{
+    font-weight: bolder;
+    color: aquamarine;
+    font-size: xxx-large;
+}
+
+th{
+    background-color: aquamarine;
+    color: black;
+}
+
+td{
+    text-align: center;
+    padding: 1px 10px;
+}
+
+td{
+    border-bottom-style: solid;
+    border-bottom-color: aquamarine;
+    border-bottom-width: 1px;
+}
+
+footer div{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-weight: lighter;
+    padding-top: 50px;
+
+}
+
+footer div a{
+    text-decoration: none;
+    color: aquamarine;
+}
+
+
